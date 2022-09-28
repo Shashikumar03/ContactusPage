@@ -1,0 +1,86 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+body{
+    background: linear-gradient;
+}
+
+.main-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.top-div{
+    background-color: cyan;
+    padding: 10px;
+}
+
+#admin:hover{
+    background-color: blue;
+    cursor: all-scroll;
+}
+.container{
+     border: 2px solid green;
+     min-height: 50vh;
+     padding: 1px;
+     background-color: antiquewhite;
+     
+    
+}
+input[type="text"],
+input[type="email"]{
+    padding: 2px;
+    width: 300px;
+    height: 40px;
+    
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+input[type=submit]{
+    padding: 5px;
+
+}
+textarea{
+    padding: 2px;
+    width: 300px;
+    margin-top:px;
+    border-radius: 3px;
+    border: 2px solid black;
+
+}
+.login{
+    padding: 30px;
+    
+}
+.form{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+#name{
+    margin-bottom: 25px;
+}
+#email{
+    margin-bottom: 25px;
+}
+#star{
+    color: red;
+}
+.header{
+padding: 10px;
+}
